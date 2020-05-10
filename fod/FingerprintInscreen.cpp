@@ -33,7 +33,7 @@
 #define FOD_STATUS_OFF 0
 
 #define FOD_SENSOR_X 293
-#define FOD_SENSOR_Y 1356
+#define FOD_SENSOR_Y 1383
 #define FOD_SENSOR_SIZE 134
 
 #define BRIGHTNESS_PATH "/sys/class/backlight/panel0-backlight/brightness"
