@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_laurel_sprout.mk
+    $(LOCAL_DIR)/syberia_laurel_sprout.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_laurel_sprout-user \
-    havoc_laurel_sprout-userdebug \
-    havoc_laurel_sprout-eng
+    syberia_laurel_sprout-user \
+    syberia_laurel_sprout-userdebug \
+    syberia_laurel_sprout-eng

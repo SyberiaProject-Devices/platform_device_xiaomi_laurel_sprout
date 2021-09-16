@@ -20,7 +20,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_p.mk)
 
 # Inherit some common Ancient stuff
-$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+$(call inherit-product, vendor/syberia/config/common_full_phone.mk)
 
 # Inherit from laurel_sprout device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
@@ -28,7 +28,7 @@ $(call inherit-product, $(LOCAL_PATH)/device.mk)
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := laurel_sprout
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_NAME := havoc_laurel_sprout
+PRODUCT_NAME := syberia_laurel_sprout
 PRODUCT_MODEL := Mi A3
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
@@ -46,8 +46,8 @@ PRODUCT_PACKAGES += \
 #    GCamGo \
 #    GalleryGo2
     
-# Official-ify
-HAVOC_BUILD_TYPE := Official
+# Syberia
+TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
 WITH_GAPPS=true
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
