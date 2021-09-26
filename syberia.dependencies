@@ -1,0 +1,62 @@
+[
+ {
+   "repository" : "Mi-A3-laurel-sprout/platform_frameworks_av",
+   "target_path": "frameworks/av",
+   "branch"     : "11.0"
+ },
+ {
+   "repository" : "Mi-A3-laurel-sprout/platform_build",
+   "target_path": "build/make",
+   "branch"     : "11.0"
+ },
+ {
+   "repository" : "Mi-A3-laurel-sprout/android_hardware_qcom_display",
+   "target_path": "hardware/qcom-caf/sm8150/display",
+   "branch"     : "syberia"
+ },
+ {
+   "repository" : "LineageOS/android_hardware_qcom_audio",
+   "target_path": "hardware/qcom-caf/sm8150/audio",
+   "branch"     : "lineage-18.1-caf-sm8150"
+ },
+ {
+   "repository" : "LineageOS/android_hardware_qcom_media",
+   "target_path": "hardware/qcom-caf/sm8150/media",
+   "branch"     : "lineage-18.1-caf-sm8150"
+ },
+ {
+   "repository" : "Mi-A3-laurel-sprout/platform_system_sepolicy",
+   "target_path": "system/sepolicy",
+   "branch"     : "11.0"
+ },
+ {
+   "repository" : "Mi-A3-laurel-sprout/platform_system_core",
+   "target_path": "system/core",
+   "branch"     : "11.0"
+ },
+ {
+   "repository" : "Mi-A3-laurel-sprout/vendor_miuicamera",
+   "target_path": "vendor/miuicamera",
+   "branch"     : "R"
+ },
+ {
+   "repository" : "Mi-A3-laurel-sprout/android_vendor_xiaomi_laurel_sprout",
+   "target_path": "vendor/xiaomi/laurel_sprout",
+   "branch"     : "fw11"
+ },
+ {
+   "repository" : "magicxavi/android_kernel_xiaomi_laurel_sprout",
+   "target_path": "kernel/xiaomi/laurel_sprout",
+   "branch"     : "lineage-18.1"
+ },
+ {
+   "repository" : "Mi-A3-laurel-sprout/android_bootable_recovery",
+   "target_path": "bootable/recovery",
+   "branch"     : "syberia"
+ },
+ {
+   "repository" : "kdrag0n/proton-clang",
+   "target_path": "prebuilts/clang/host/linux-x86/clang-11",
+   "branch"     : "master"
+ }
+]
