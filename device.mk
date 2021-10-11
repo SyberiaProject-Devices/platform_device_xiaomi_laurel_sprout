@@ -137,6 +137,15 @@ PRODUCT_PACKAGES += \
     libqcomvoiceprocessing \
     libvolumelistener
 
+# Backup Tool
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/prebuilt/bin/backuptool.sh:install/bin/backuptool.sh \
+    $(LOCAL_PATH)/prebuilt/bin/backuptool.functions:install/bin/backuptool.functions \
+    $(LOCAL_PATH)/prebuilt/bin/50-tool.sh:$(TARGET_COPY_OUT_SYSTEM)/addon.d/50-tool.sh \
+    $(LOCAL_PATH)/prebuilt/bin/backuptool_ab.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/backuptool_ab.sh \
+    $(LOCAL_PATH)/prebuilt/bin/backuptool_ab.functions:$(TARGET_COPY_OUT_SYSTEM)/bin/backuptool_ab.functions \
+    $(LOCAL_PATH)/prebuilt/bin/backuptool_postinstall.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/backuptool_postinstall.sh
+
 # Bluetooth
 include vendor/qcom/opensource/commonsys-intf/bluetooth/bt-commonsys-intf-board.mk
 $(call inherit-product, vendor/qcom/opensource/commonsys-intf/bluetooth/bt-system-opensource-product.mk)
